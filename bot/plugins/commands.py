@@ -47,10 +47,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/MRflicks'),
+        InlineKeyboardButton('🔰 Channel 🔰', url='https://t.me/MRflicks'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/sivakarthick19/autofilterboss')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/flickrequest')
+        InlineKeyboardButton('⚜️ Join Our Group ⚜️', url='https://t.me/flickrequest')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
