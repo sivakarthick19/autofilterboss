@@ -55,7 +55,7 @@ async def auto_filter(bot: Client, update: Message):
     pm_file_chat = configs["configs"]["pm_fchat"] # should file to be send from bot pm to user
     max_results = configs["configs"]["max_results"] # maximum total result of a query
     max_per_page = configs["configs"]["max_per_page"] # maximum buttom per page 
-    show_invite = configs["configs"]["show_invite_link"] # should or not show active chat invite link
+    show_invite = configs["configs"]["not_show_invite_link"] # should or not show active chat invite link
     
     # show_invite = (False if pm_file_chat == True else show_invite) # turn show_invite to False if pm_file_chat is True
     
